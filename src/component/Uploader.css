@@ -1,0 +1,117 @@
+.file-uploader {
+    margin-bottom: 1rem;
+  }
+  
+  .file-uploader__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+  }
+  
+  .file-uploader__input {
+    display: none;
+  }
+  
+  .file-uploader__text {
+    font-size: 1rem;
+  }
+  
+  .file-uploader__error {
+    color: red;
+    margin-top: 0.5rem;
+  }
+  
+  .file-uploader__remove-btn {
+    margin-left: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .file-uploader__upload-btn {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-uploader__upload-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .file-uploader__file-list {
+    margin-top: 1rem;
+  }
+  
+  .file-uploader__file-list h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .file-uploader__file-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .file-uploader__file-list ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .file-uploader__file-list ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .file-uploader__file-list ul li a:hover {
+    text-decoration: underline;
+  }
+  .file-uploader__file-list {
+    margin-top: 20px;
+  }
+  
+  .file-uploader__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .file-uploader__table th,
+  .file-uploader__table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .file-uploader__table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .file-uploader__table td {
+    text-align: left;
+  }
+  
+  .file-uploader__table a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .file-uploader__table a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .file-uploader__icon {
+    margin-right: 10px;
+  } 
